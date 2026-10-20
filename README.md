@@ -25,6 +25,8 @@ Rules are turned into Chrome [`declarativeNetRequest`](https://developer.chrome.
 
 ## Privacy
 
+**Privacy policy:** Link Sanitizer does not collect, transmit or share any personal data. Your rules never leave your browser.
+
 - No content script: nothing runs inside the pages you visit.
 - It never reads page content, history or cookies, and makes no network requests of its own.
 - Your rules are stored locally with `chrome.storage.local`. Nothing is collected or sent anywhere.
